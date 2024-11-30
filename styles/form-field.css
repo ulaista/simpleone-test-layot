@@ -1,0 +1,74 @@
+.form-field-line{
+    padding: 20px;
+}
+
+.form-field-line div:first-child {
+    padding-bottom: 30px;
+}
+
+.input-with-badges {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.badges {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    flex: 1;
+}
+
+.badge {
+    background-color: #e0f7fa;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-size: 14px;
+}
+
+.clear-badge {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    line-height: 1;
+}
+
+.badge-buttons {
+    display: flex;
+    gap: 5px;
+}
+
+.icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.icon-button img {
+    width: 16px;
+    height: 16px;
+}
+
+.input-with-icon {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.input-with-icon .form-input {
+    flex: 1;
+}
+
+@media screen and (max-width: 767px) {
+    .form-field {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
