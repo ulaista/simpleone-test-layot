@@ -1,0 +1,117 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 24px;
+    width: 174px;
+}
+
+.header-tools {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+.search-input {
+    border: none;
+    outline: none;
+    padding: 5px;
+}
+
+.search-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.user-profile {
+    display: flex;
+    align-items: center;
+}
+
+.profile-picture {
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.user-name {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+.settings-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.header-tools-mobile {
+    display: none;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.menu-button img,
+.settings-button img {
+    width: 24px;
+    height: 24px;
+}
+
+.header-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+@media screen and (max-width: 767px) {
+    .logo {
+        display: none !important;
+    }
+
+    .header-tools {
+        display: none !important;
+    }
+
+    .header-tools-mobile {
+        display: flex !important;
+    }
+
+    .header {
+        padding: 10px;
+    }
+
+    .profile-picture {
+        height: 32px;
+        width: 32px;
+    }
+
+    .settings-button {
+        padding: 5px;
+    }
+
+    .header-icons {
+        gap: 5px;
+    }
+}
