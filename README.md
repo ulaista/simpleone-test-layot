@@ -1,1 +1,0 @@
-# simpleone-test-layot
