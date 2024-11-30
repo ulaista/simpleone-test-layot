@@ -56,8 +56,12 @@
 
 .settings-button {
     background: none;
-    border: none;
+    border: 1px solid #D5D8DD;
     cursor: pointer;
+    border-radius: 4px;
+    width: 32px;
+    height: 32px;
+    align-items: center;
 }
 
 .header-tools-mobile {
@@ -75,8 +79,8 @@
 
 .menu-button img,
 .settings-button img {
-    width: 24px;
-    height: 24px;
+    width: 20px;
+    height: 20px;
 }
 
 .header-icons {

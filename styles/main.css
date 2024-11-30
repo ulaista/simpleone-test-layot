@@ -238,3 +238,20 @@ header {
     box-sizing: border-box;
     background-color: #FCFCFD;
 }
+
+label {
+    display: flex;
+    align-items: center;
+}
+label div{
+    padding-right: 7px;
+}
+
+.red-point {
+    color: red;
+}
+
+input:focus {
+    outline: none;
+    box-shadow: none;
+}
