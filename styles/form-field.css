@@ -3,7 +3,7 @@
 }
 
 .form-field-line div:first-child {
-    padding-bottom: 30px;
+    padding-bottom: 5px;
 }
 
 .input-with-badges {
@@ -19,6 +19,10 @@
     flex-wrap: wrap;
     gap: 5px;
     flex: 1;
+    border: 1px solid #D5D8DD;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #FCFCFD;
 }
 
 .badge {
@@ -30,6 +34,7 @@
     align-items: center;
     gap: 5px;
     font-size: 14px;
+    margin: 2px;
 }
 
 .clear-badge {
@@ -43,6 +48,18 @@
 .badge-buttons {
     display: flex;
     gap: 5px;
+}
+
+.badge-buttons button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    cursor: pointer;
 }
 
 .icon-button {

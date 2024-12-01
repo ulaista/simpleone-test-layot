@@ -67,9 +67,15 @@
     align-items: center;
 }
 
-.form-group .input-with-icon button {
-    background: none;
-    border: none;
+.form-group .input-with-icon button {  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
     cursor: pointer;
 }
 
