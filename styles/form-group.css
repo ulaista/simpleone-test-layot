@@ -1,7 +1,7 @@
-
 .form-group {
     display: flex;
     flex-direction: column;
+    margin-bottom: 15px;
 }
 
 .form-group label {
@@ -15,34 +15,10 @@
     border-radius: 4px;
 }
 
-.form-group {
-    margin-bottom: 15px;
-}
-
 .input-with-badge {
     display: flex;
     align-items: center;
     gap: 10px;
-}
-
-.badge {
-    background-color: #e0f7fa;
-    color: #007bff;
-    padding: 5px 10px;
-    border-radius: 12px;
-    display: flex;
-    align-items: center;
-    gap: 5px;
-    font-size: 14px;
-}
-
-.clear-badge {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 14px;
-    line-height: 1;
-    padding: 0;
 }
 
 .input-icons {
