@@ -2,6 +2,11 @@
     padding: 20px;
 }
 
+.form-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
 .form-field-line div:first-child {
     padding-bottom: 5px;
 }
@@ -22,6 +27,7 @@
     border-radius: 4px;
     box-sizing: border-box;
     background-color: #FCFCFD;
+    position: relative;
 }
 
 .badge {
@@ -34,6 +40,13 @@
     gap: 3px;
     font-size: 14px;
     margin: 2px;
+}
+
+.badge div{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
 }
 
 .clear-badge {
@@ -54,6 +67,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
 }
 
 .badge-buttons {
@@ -87,5 +104,19 @@
     .form-field {
         flex-direction: column;
         align-items: stretch;
+    }
+    .badge div{
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        max-width: 150px;
+    }
+    @media screen and (max-width: 320px) {
+        .badge div{
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 90px;
+        }
     }
 }
